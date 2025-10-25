@@ -1,0 +1,49 @@
+{
+  "name": "api-pdf-invoice-generator",
+  "version": "1.0.0",
+  "description": "API para convertir HTML a PDF usando Puppeteer y Google Drive con caché multi-nivel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node index.js"
+  },
+  "keywords": [
+    "pdf",
+    "invoice",
+    "html-to-pdf",
+    "google-drive",
+    "puppeteer",
+    "next.js",
+    "express",
+    "cache",
+    "optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "handlebars": "^4.7.8",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.0.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer-core": "^24.14.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
