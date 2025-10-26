@@ -7,8 +7,7 @@
 ### 1. Fork el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/api-pdf-invoice-generator.git
-cd api-pdf-invoice-generator
+git clone https://github.com/Tu Usuario/HTML-TO-PDF-CONVERTOR.git
 ```
 
 ### 2. Crea una Rama
